@@ -6,8 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/QRAnchorSharing/Libraries/QRFoundation/Sample/SampleScanner.unity
+    path: Assets/Scenes/MainMenu.unity
+    guid: 5bc98590e166f784ab1bce19dc476fb2
+  - enabled: 1
+    path: Assets/Scenes/QRCodeDetection.unity
     guid: a27d68e23ee484782bf5a43875633baf
+  - enabled: 1
+    path: Assets/Scenes/ManualPlacement.unity
+    guid: 82b7655040b003543ad83ad016c42812
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 8d30f78f352a8aa4f9fd22740ce48636, type: 2}
+    com.unity.input.settings: {fileID: 11400000, guid: ac5e2190298f8d743b6c4d01c2eafd81, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 226df4bd9dc3d804aa154cd17914a941, type: 2}
